@@ -1444,6 +1444,27 @@
           }
         }
       },
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design/6.0.13": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.DotNet.Scaffolding.Shared": "6.0.13",
+          "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "6.0.13",
+          "NuGet.Packaging": "6.3.1",
+          "System.Configuration.ConfigurationManager": "6.0.0",
+          "System.Private.Uri": "4.3.2",
+          "System.Security.Cryptography.X509Certificates": "4.3.0"
+        },
+        "compile": {
+          "lib/net6.0/dotnet-aspnet-codegenerator-design.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/dotnet-aspnet-codegenerator-design.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/6.0.13": {
         "type": "package",
         "dependencies": {
@@ -5100,6 +5121,20 @@
         "lib/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.xml",
         "microsoft.visualstudio.web.codegeneration.core.6.0.13.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.core.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Web.CodeGeneration.Design/6.0.13": {
+      "sha512": "fZ332LrRxNh8ljF7bebV4vdZO88WI/gqFjY0qiFZxRGREfMy3rnWKWMaJqtxJUXVvEOLAjex+lNq8HZXiX1ETQ==",
+      "type": "package",
+      "path": "microsoft.visualstudio.web.codegeneration.design/6.0.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/dotnet-aspnet-codegenerator-design.dll",
+        "lib/net6.0/dotnet-aspnet-codegenerator-design.xml",
+        "microsoft.visualstudio.web.codegeneration.design.6.0.13.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.design.nuspec"
       ]
     },
     "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/6.0.13": {
@@ -9979,6 +10014,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 6.0.15",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.15",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.15",
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.13",
       "Microsoft.VisualStudio.Web.CodeGenerators.Mvc >= 6.0.13"
     ]
   },
@@ -10041,6 +10077,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.15, )"
+          },
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "target": "Package",
+            "version": "[6.0.13, )"
           },
           "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": {
             "target": "Package",

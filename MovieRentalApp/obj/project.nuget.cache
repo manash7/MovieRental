@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Y9CqIfFhzf3WXf9+hv2ul7d+8e11xlKhuJDKv1MIwau5zxfRhwUmUepwsu/xPzbzk2Y46yC/9ZwtJ2BiRvuuCA==",
+  "dgSpecHash": "qDc9ymYcAQPNr9Jwd6Mhjp+R110EXP/XPYI5X4+jbHNxQamm0VePRv2rcgUiSgwiwHcJsQECdO0iZe31kgENHA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Techment Technology\\source\\repos\\WEB\\MovieRentalApp\\MovieRentalApp\\MovieRentalApp.csproj",
   "expectedPackageFiles": [
@@ -60,6 +60,7 @@
     "C:\\Users\\Techment Technology\\.nuget\\packages\\microsoft.visualstudio.debugger.contracts\\17.2.0\\microsoft.visualstudio.debugger.contracts.17.2.0.nupkg.sha512",
     "C:\\Users\\Techment Technology\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\6.0.13\\microsoft.visualstudio.web.codegeneration.6.0.13.nupkg.sha512",
     "C:\\Users\\Techment Technology\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\6.0.13\\microsoft.visualstudio.web.codegeneration.core.6.0.13.nupkg.sha512",
+    "C:\\Users\\Techment Technology\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.design\\6.0.13\\microsoft.visualstudio.web.codegeneration.design.6.0.13.nupkg.sha512",
     "C:\\Users\\Techment Technology\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.entityframeworkcore\\6.0.13\\microsoft.visualstudio.web.codegeneration.entityframeworkcore.6.0.13.nupkg.sha512",
     "C:\\Users\\Techment Technology\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.templating\\6.0.13\\microsoft.visualstudio.web.codegeneration.templating.6.0.13.nupkg.sha512",
     "C:\\Users\\Techment Technology\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.utils\\6.0.13\\microsoft.visualstudio.web.codegeneration.utils.6.0.13.nupkg.sha512",

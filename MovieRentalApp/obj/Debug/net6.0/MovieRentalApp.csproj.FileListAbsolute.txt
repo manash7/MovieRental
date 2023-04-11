@@ -268,3 +268,4 @@ C:\Users\Techment Technology\source\repos\WEB\MovieRentalApp\MovieRentalApp\bin\
 C:\Users\Techment Technology\source\repos\WEB\MovieRentalApp\MovieRentalApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Techment Technology\source\repos\WEB\MovieRentalApp\MovieRentalApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Techment Technology\source\repos\WEB\MovieRentalApp\MovieRentalApp\obj\Debug\net6.0\MovieRentalApp.csproj.CopyComplete
+C:\Users\Techment Technology\source\repos\WEB\MovieRentalApp\MovieRentalApp\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
