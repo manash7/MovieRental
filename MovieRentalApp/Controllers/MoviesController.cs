@@ -158,5 +158,11 @@ namespace MovieRentalApp.Controllers
         {
           return (_context.Movies?.Any(e => e.ID == id)).GetValueOrDefault();
         }
+        public async Task<IActionResult> MovieDashboard()
+        {
+            return _context.Movies != null ?
+                          View(await _context.Movies.ToListAsync()) :
+                          Problem("Entity set 'MovieRentalContext.Movies'  is null.");
+        }
     }
 }

@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
 namespace MovieRentalApp.Models
 {
@@ -18,7 +16,6 @@ namespace MovieRentalApp.Models
         [StringLength(100)]
         [Unicode(false)]
         public string Name { get; set; } = null!;
-        [StringLength(150)]
         [Unicode(false)]
         public string? Description { get; set; }
         [StringLength(10)]
@@ -28,6 +25,8 @@ namespace MovieRentalApp.Models
         [Unicode(false)]
         public string? Genre { get; set; }
         public double Cost { get; set; }
+        [StringLength(10)]
+        public string? ImagePoster { get; set; }
         [StringLength(100)]
         [Unicode(false)]
         public string? Image { get; set; }

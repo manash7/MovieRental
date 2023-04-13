@@ -1,0 +1,41 @@
+﻿@model MovieRentalApp.Models.UserLogin
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="container text-center" style="margin-top:150px">
+    <div class="form-signin w-25 m-auto">
+        <form asp-action="Login">
+            @*<img class="mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">*@
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <h1 class="h3 mb-3 fw-normal">Users Login</h1>
+
+            <div class="form-floating">
+                @*<input  class="form-control" />*@
+                <span asp-validation-for="Email" class="text-danger"></span>
+                <input asp-for="Email" type="email" class="form-control" id="floatingInput" placeholder="example@mail.com">
+                <label for="floatingInput">Username</label>
+            </div>
+            <div class="form-floating">
+                @*<input  class="form-control" />*@
+                <span asp-validation-for="Password" class="text-danger"></span>
+                <input asp-for="Password" type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+            </div>
+
+            <div class="checkbox mb-3 text-start" style="margin-left:5px">
+                <label>
+                    <input class="" type="checkbox" value="remember-me"> Remember me
+                </label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" value="Login" type="submit">Sign in</button>
+            <p class="mt-5 mb-3 text-body-secondary">© 2017–2023</p>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

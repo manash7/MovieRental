@@ -5,6 +5,26 @@
       "PackagePath": "staticwebassets\\MovieRentalApp.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Techment Technology\\source\\repos\\WEB\\MovieRentalApp\\MovieRentalApp\\wwwroot\\Images\\AndazApnaApna.jpg",
+      "PackagePath": "staticwebassets\\Images\\AndazApnaApna.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Techment Technology\\source\\repos\\WEB\\MovieRentalApp\\MovieRentalApp\\wwwroot\\Images\\BatmanBegins.jpg",
+      "PackagePath": "staticwebassets\\Images\\BatmanBegins.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Techment Technology\\source\\repos\\WEB\\MovieRentalApp\\MovieRentalApp\\wwwroot\\Images\\BatmanDarkKnight.jpg",
+      "PackagePath": "staticwebassets\\Images\\BatmanDarkKnight.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Techment Technology\\source\\repos\\WEB\\MovieRentalApp\\MovieRentalApp\\wwwroot\\Images\\BatmanDarkKnightRises.jpg",
+      "PackagePath": "staticwebassets\\Images\\BatmanDarkKnightRises.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Techment Technology\\source\\repos\\WEB\\MovieRentalApp\\MovieRentalApp\\wwwroot\\Images\\Tenet.jpg",
+      "PackagePath": "staticwebassets\\Images\\Tenet.jpg"
+    },
+    {
       "Id": "C:\\Users\\Techment Technology\\source\\repos\\WEB\\MovieRentalApp\\MovieRentalApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

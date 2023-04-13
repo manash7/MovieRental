@@ -24,13 +24,16 @@ namespace MovieRentalApp.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if (!optionsBuilder.IsConfigured)
-            {
-            }
+           
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Movie>(entity =>
+            {
+                entity.Property(e => e.ImagePoster).IsFixedLength();
+            });
+
             modelBuilder.Entity<Order>(entity =>
             {
                 entity.Property(e => e.ID).ValueGeneratedOnAdd();

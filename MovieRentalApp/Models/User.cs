@@ -22,12 +22,17 @@ namespace MovieRentalApp.Models
         [Unicode(false)]
         public string LastName { get; set; } = null!;
         public int? RentedMovies { get; set; }
+        [Required]
         [StringLength(50)]
         [Unicode(false)]
         public string Email { get; set; } = null!;
+        
+        [Required]
         [StringLength(50)]
         [Unicode(false)]
         public string Password { get; set; } = null!;
+        [Column(TypeName = "date")]
+        public DateTime? DOB { get; set; }
 
         [InverseProperty("User")]
         public virtual ICollection<Rental> Rentals { get; set; }
